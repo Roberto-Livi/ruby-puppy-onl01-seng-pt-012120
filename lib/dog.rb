@@ -22,10 +22,6 @@ class Dog
   def save
     @@all << self
   end
-  
-  def dogs_name
-    @all
-  end
 
   def self.clear_all
     @@all.clear
